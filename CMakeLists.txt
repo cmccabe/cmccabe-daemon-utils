@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.6.4 FATAL_ERROR)
 project(dutils)
 enable_testing()
 add_custom_target(check COMMAND ctest) # Define "make check" as an alias for "make test."
-SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "The JSON object relational mapping"
+SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "cmccabe daemon-utils")
 SET(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE.txt")
 SET(CPACK_PACKAGE_VERSION_MAJOR "1")
 SET(CPACK_PACKAGE_VERSION_MINOR "0")
